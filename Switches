@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class siwtch {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        String fruit = in.next();
+
+        switch (fruit) {
+            case "apple" -> System.out.println("red");
+            case "banana" -> System.out.println("yellow");
+            default -> System.out.println("enter valid");
+        }
+    }
+}
